@@ -827,6 +827,8 @@
         }
     }
     .choice {
+        padding-top: 27px;
+        padding-bottom: 0;
         &__table-item {
             padding: 25px 30px 54px 20px;
         }
@@ -850,6 +852,7 @@
         }
     }
     .work {
+        margin-top: 25px;
         &__title {
             font-size: 36px;
             line-height: 40px;

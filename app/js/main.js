@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     const slider = document.querySelector('.example__visual-slider');
     const canvas = document.querySelector('.example__visual-canvas');
 
-    const fatImg = createImage('/images/fat-cat.webp');
+    const fatImg = createImage('images/fat-cat.webp');
 
-    const slimImg = createImage('./images/slim-cat.png');
+    const slimImg = createImage('images/slim-cat.png');
 
     const fatPromise = new Promise((resolve, reject) => {
         fatImg.onload = resolve;
