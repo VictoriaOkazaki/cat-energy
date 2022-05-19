@@ -499,6 +499,11 @@
             width: 100%;
         }
     }
+    .example {
+        &__visual-progress {
+            margin-left: 50px;
+        }
+    }
 }
 
 @media (max-width: 1000px) {
@@ -527,6 +532,9 @@
         &__visual {
             width: 70%;
             padding-right: 30px;
+        }
+        &__visual-progress {
+            margin-left: 30px;
         }
     }
 }
@@ -896,7 +904,7 @@
         }
         &__map-pin {
             width: 57px;
-            top: 55%;
+            top: 53%;
             left: 45%;
         }
     }
