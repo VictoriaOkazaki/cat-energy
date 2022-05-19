@@ -1,6 +1,7 @@
 const burger = document.querySelector('.burger');
 const headerMenu = document.querySelector('.header__menu');
 const homeBg = document.querySelector('.home__right-bg');
+const headerLogo = document.querySelector('.header__logo');
 
 if ($(window).width() < 900) {
     if ($(window).width() > 500) {
@@ -11,6 +12,8 @@ if ($(window).width() < 900) {
 
     if ($(window).width() < 700) {
         homeBg.src = 'images/home-bg-mob.jpg';
+        headerLogo.src = 'images/logos/header-logo-mob.svg';
+
         burger.addEventListener('click', () => {
             burger.classList.toggle('burger--active');
             headerMenu.classList.toggle('header__menu--active');
