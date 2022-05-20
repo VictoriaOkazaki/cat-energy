@@ -774,7 +774,7 @@
         &__menu {
             position: absolute;
             left: 50%;
-            padding: 5px 40px 40px 40px;
+            padding: 40px;
             background-color: #ffffff;
         }
         &__menu-list {
@@ -888,6 +888,9 @@
         &__visual-top,
         &__description-text {
             background-color: $basic-gray;
+        }
+        &__description-top {
+            padding-top: 20px;
         }
     }
     .contacts {
